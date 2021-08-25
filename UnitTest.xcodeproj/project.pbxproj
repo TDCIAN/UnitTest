@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A93A730626D6014A00703F93 /* UnitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A730526D6014A00703F93 /* UnitTestTests.swift */; };
 		A93A731026D6043C00703F93 /* UserModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A730F26D6043C00703F93 /* UserModelTests.swift */; };
+		A93A731626D6260E00703F93 /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A731526D6260E00703F93 /* SignupFormModelValidatorTests.swift */; };
+		A93A731A26D626E000703F93 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A731926D626E000703F93 /* SignupFormModelValidator.swift */; };
 		A97173F726D4E7D400007459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173F626D4E7D400007459 /* AppDelegate.swift */; };
 		A97173F926D4E7D400007459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173F826D4E7D400007459 /* SceneDelegate.swift */; };
 		A97173FB26D4E7D400007459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173FA26D4E7D400007459 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		A93A730526D6014A00703F93 /* UnitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestTests.swift; sourceTree = "<group>"; };
 		A93A730726D6014A00703F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93A730F26D6043C00703F93 /* UserModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelTests.swift; sourceTree = "<group>"; };
+		A93A731526D6260E00703F93 /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
+		A93A731926D626E000703F93 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
 		A97173F326D4E7D400007459 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97173F626D4E7D400007459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97173F826D4E7D400007459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				A93A730526D6014A00703F93 /* UnitTestTests.swift */,
 				A93A730726D6014A00703F93 /* Info.plist */,
 				A93A730F26D6043C00703F93 /* UserModelTests.swift */,
+				A93A731526D6260E00703F93 /* SignupFormModelValidatorTests.swift */,
 			);
 			path = UnitTestTests;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				A971740126D4E7D500007459 /* LaunchScreen.storyboard */,
 				A971740426D4E7D500007459 /* Info.plist */,
 				A971740B26D4E86800007459 /* Note.playground */,
+				A93A731926D626E000703F93 /* SignupFormModelValidator.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			files = (
 				A93A731026D6043C00703F93 /* UserModelTests.swift in Sources */,
 				A93A730626D6014A00703F93 /* UnitTestTests.swift in Sources */,
+				A93A731626D6260E00703F93 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +222,7 @@
 			files = (
 				A97173FB26D4E7D400007459 /* ViewController.swift in Sources */,
 				A97173F726D4E7D400007459 /* AppDelegate.swift in Sources */,
+				A93A731A26D626E000703F93 /* SignupFormModelValidator.swift in Sources */,
 				A97173F926D4E7D400007459 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
