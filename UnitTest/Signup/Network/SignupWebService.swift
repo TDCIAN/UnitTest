@@ -20,6 +20,7 @@ class SignupWebService {
         
         guard let url = URL(string: urlString) else {
             // TODO: Create a unit test to test that a specific error message is returned is URL is nil
+            completionHandler(nil, SignupError.invalidRequestURLString)
             return
         }
         var request = URLRequest(url: url)
@@ -29,6 +30,10 @@ class SignupWebService {
         request.httpBody = try? JSONEncoder().encode(formModel)
         
         let dataTask = urlSession.dataTask(with: request) { data, response, error in
+            if let requestError = error {
+                completionHandler(nil, SignupError.failedRequest(description: requestError.localizedDescription))
+                return
+            }
             if let data = data, let signupResponseModel = try? JSONDecoder().decode(SignupResponseModel.self, from: data) {
                 completionHandler(signupResponseModel, nil)
             } else {
