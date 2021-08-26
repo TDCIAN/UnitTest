@@ -106,3 +106,24 @@ Thorough & Timely - Cover edge cases
         - Asserts that an expression does not throw an error
  */
 
+// MARK: Unit Testing View Controller Strategy (Section 7.78)
+/*
+ The strategy
+ 
+ Make UIViewController responsible for
+ - Managing views and,
+ - Handle user interaction events
+ 
+ Delegate to other classes
+ - Network calls,
+ - Data validation,
+ - Sorting, parsing, persistence and etc..
+ 
+ 
+ Often Not Tested With Unit Tests.
+ - Colors
+ - Font style
+ - Font size
+ - Layout Constraints
+ - And etc
+ */
