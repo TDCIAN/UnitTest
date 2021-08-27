@@ -29,10 +29,11 @@
 		A96AC91226D77F8800E67AA8 /* SignupViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96AC91126D77F8800E67AA8 /* SignupViewDelegateProtocol.swift */; };
 		A97173F726D4E7D400007459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173F626D4E7D400007459 /* AppDelegate.swift */; };
 		A97173F926D4E7D400007459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173F826D4E7D400007459 /* SceneDelegate.swift */; };
-		A97173FB26D4E7D400007459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97173FA26D4E7D400007459 /* ViewController.swift */; };
 		A97173FE26D4E7D400007459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97173FC26D4E7D400007459 /* Main.storyboard */; };
 		A971740026D4E7D500007459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97173FF26D4E7D500007459 /* Assets.xcassets */; };
 		A971740326D4E7D500007459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A971740126D4E7D500007459 /* LaunchScreen.storyboard */; };
+		A9C9A8DA26D86A7B00F4CBDB /* SignupViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9A8D926D86A7B00F4CBDB /* SignupViewControllerTests.swift */; };
+		A9C9A8E226D86C3600F4CBDB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9A8E126D86C3600F4CBDB /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,12 +72,13 @@
 		A97173F326D4E7D400007459 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97173F626D4E7D400007459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97173F826D4E7D400007459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A97173FA26D4E7D400007459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A97173FD26D4E7D400007459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A97173FF26D4E7D500007459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A971740226D4E7D500007459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A971740426D4E7D500007459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A971740B26D4E86800007459 /* Note.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Note.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A9C9A8D926D86A7B00F4CBDB /* SignupViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewControllerTests.swift; sourceTree = "<group>"; };
+		A9C9A8E126D86C3600F4CBDB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +138,7 @@
 		A96AC8D626D71E4900E67AA8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A97173FA26D4E7D400007459 /* ViewController.swift */,
+				A9C9A8E126D86C3600F4CBDB /* SignupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 		A96AC8D826D71EC300E67AA8 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				A9C9A8D826D86A3900F4CBDB /* Controllers */,
 				A96AC90026D774D600E67AA8 /* Mocks */,
 				A96AC8FF26D774B500E67AA8 /* Presenters */,
 				A96AC8DA26D71ED400E67AA8 /* Network */,
@@ -244,6 +247,14 @@
 				A971740B26D4E86800007459 /* Note.playground */,
 			);
 			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		A9C9A8D826D86A3900F4CBDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9C9A8D926D86A7B00F4CBDB /* SignupViewControllerTests.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +365,7 @@
 				A96AC90426D7769400E67AA8 /* MockSignupWebService.swift in Sources */,
 				A96AC8DE26D733C800E67AA8 /* MockURLProtocol.swift in Sources */,
 				A93A732226D63C6C00703F93 /* SignupWebServiceTests.swift in Sources */,
+				A9C9A8DA26D86A7B00F4CBDB /* SignupViewControllerTests.swift in Sources */,
 				A93A731626D6260E00703F93 /* SignupFormModelValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +375,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96AC8F226D7657600E67AA8 /* SignupPresenter.swift in Sources */,
-				A97173FB26D4E7D400007459 /* ViewController.swift in Sources */,
 				A97173F726D4E7D400007459 /* AppDelegate.swift in Sources */,
 				A96AC90826D778EE00E67AA8 /* SignupWebServiceProtocol.swift in Sources */,
 				A96AC8CD26D7187A00E67AA8 /* SignupResponseModel.swift in Sources */,
@@ -371,6 +382,7 @@
 				A96AC91226D77F8800E67AA8 /* SignupViewDelegateProtocol.swift in Sources */,
 				A96AC8D126D719AA00E67AA8 /* SignupError.swift in Sources */,
 				A96AC8EE26D763F800E67AA8 /* SignupFormModel.swift in Sources */,
+				A9C9A8E226D86C3600F4CBDB /* SignupViewController.swift in Sources */,
 				A93A731E26D62ED100703F93 /* SignupConstants.swift in Sources */,
 				A96AC8FA26D7696800E67AA8 /* SignupModelValidatorProtocol.swift in Sources */,
 				A93A732A26D63D7F00703F93 /* SignupFormRequestModel.swift in Sources */,
