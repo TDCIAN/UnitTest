@@ -127,3 +127,15 @@ Thorough & Timely - Cover edge cases
  - Layout Constraints
  - And etc
  */
+
+// MARK: Testing Pyramid (Section 13. 1)
+/*
+ 1. Unit Tests
+    - Testing isolated small pieces of code with Fake or Mock dependencies.
+ 
+ 2. Integration Tests
+    - App code is tested without faking database or HTTP connections
+ 
+ 3. UI Tests
+    - Automated tests to test user interface interaction and behavior
+ */
